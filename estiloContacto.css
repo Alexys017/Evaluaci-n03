@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Ubuntu", sans-serif;
+}
+main{
+    margin: auto;
+    width: 100%;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    background: linear-gradient(to top, rgb(184, 156, 192), white );
+}
+h1{
+    font-size: 60pt;
+}
+#encabezado{
+    position: sticky;
+    top: 0;
+    background-color: bisque;
+    height: 150px;
+    z-index: 1;
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav ol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(145, 101, 66);
+
+}
+nav a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline 4px rgb(150, 111, 187);
+}
+nav ol li{
+    margin-left: 30px;
+}
+#cuerpo{
+    display: flex;
+    justify-content: center;
+}
+#tablas{
+    margin-top: 15px;
+}
+table{
+    width: 350px;
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid rgb(150, 111, 187);
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid rgb(150, 111, 187);
+}
+td{
+    padding: 5px;
+    border: 1px solid rgb(150, 111, 187);
+}
+tr:nth-of-type(1)>th{
+    font-size: 10pt;
+    padding: 10px;
+}
+tr:nth-of-type(2)>th,
+tr:nth-of-type(3)>th,
+tr:nth-of-type(4)>th{
+    font-size: 10pt;
+    text-align: right;
+    padding: 10px;
+
+}
+
+#horario{
+    margin: 15px;
+}
+h3{
+    color:rgb(182, 33, 33);
+    text-align: center;
+}
+h2{
+    color: rgb(182, 33, 33);
+    text-align: center;
+}
+#ImagenGato img{
+    height: 100%;
+    text-align: center;
+}
+#ImagenGato{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    height: 150px;
+}
+#formulario{
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+input{
+    height: 30px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.input-text textarea{
+    width: 300px;
+    height: 100px;
+}
+.caja button{
+    margin-top: 20px;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(121, 115, 115);
+    border: none;
+    border-radius: 40px;
+}
+.caja button:hover{
+    width: 100%;
+    height: 45px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 40px;
+    transition: all 150ms ease-in;
+}
+#mapa{
+    align-content: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 700px;
+    margin: auto;
+
+}
+iframe{
+    height: 100%;
+    width: 100%;
+}
+footer{
+    margin-top: 20px;
+}
+footer ol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+footer ol li{
+    margin-left: 30px;
+    
+}
+footer a{
+    text-decoration: none;
+    color: rgb(99, 65, 26);
+    
+    border-radius: 50%;
+    
+}
+footer a:hover{
+    color: rgb(0, 0, 0);
+    text-decoration: underline blue;
+
+}
